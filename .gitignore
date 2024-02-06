@@ -1,0 +1,5 @@
+*
+!*.bash
+!*.service
+!*.timer
+!.gitignore
