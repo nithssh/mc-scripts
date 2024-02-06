@@ -1,0 +1,7 @@
+[Unit]
+Description=Service to backup my minecraft server under ~/mincraft-server
+
+[Service]
+Type=simple
+ExecStart=%h/minecraft-server/backup.bash
+

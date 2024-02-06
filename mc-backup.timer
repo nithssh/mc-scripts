@@ -1,0 +1,10 @@
+[Unit]
+Description=Run my minecraft server backup script every hour.
+
+[Timer]
+OnCalendar=*-*-* *:00:00
+Unit=mc-backup.service
+
+[Install]
+WantedBy=timers.target
+
